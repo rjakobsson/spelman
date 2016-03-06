@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'henny_pennyregular';
+  src: url('hennypenny-regular-webfont.eot');
+  src: url('hennypenny-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('hennypenny-regular-webfont.woff2') format('woff2'),
+       url('hennypenny-regular-webfont.woff') format('woff'),
+       url('hennypenny-regular-webfont.ttf') format('truetype'),
+       url('hennypenny-regular-webfont.svg#henny_pennyregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'berolinaregular';
+    src: url('berolina-webfont.eot');
+    src: url('berolina-webfont.eot?#iefix') format('embedded-opentype'),
+         url('berolina-webfont.woff2') format('woff2'),
+         url('berolina-webfont.woff') format('woff'),
+         url('berolina-webfont.ttf') format('truetype'),
+         url('berolina-webfont.svg#berolinaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'cat_childsregular';
+  src: url('catchilds-webfont.eot');
+  src: url('catchilds-webfont.eot?#iefix') format('embedded-opentype'),
+       url('catchilds-webfont.woff2') format('woff2'),
+       url('catchilds-webfont.woff') format('woff'),
+       url('catchilds-webfont.ttf') format('truetype'),
+       url('catchilds-webfont.svg#cat_childsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	background: url(../img/gradient.png) repeat-x; /* will cover whole bg, analyze color */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c315c+0,1c315c+1,22335b+3,403a56+9,73484b+16,a1583f+23,a3583d+23,ce6a32+30,ec7a2e+36,fa862c+40,ff8d2e+42,ffa437+48,ffc34a+55,ffe060+61,f8ef6c+65,f6f676+69,f5f686+77,f5ec93+84,f5c896+98,f6c493+99,f7b886+100,f7b884+100,000000+100,000000+100&1+0,1+100,0+100,0+100 */
+background: -moz-linear-gradient(top, rgba(28,49,92,1) 0%, rgba(28,49,92,0.99) 1%, rgba(34,51,91,0.97) 3%, rgba(64,58,86,0.91) 9%, rgba(115,72,75,0.84) 16%, rgba(163,88,61,0.77) 23%, rgba(206,106,50,0.7) 30%, rgba(236,122,46,0.64) 36%, rgba(250,134,44,0.6) 40%, rgba(255,141,46,0.58) 42%, rgba(255,164,55,0.52) 48%, rgba(255,195,74,0.45) 55%, rgba(255,224,96,0.39) 61%, rgba(248,239,108,0.35) 65%, rgba(246,246,118,0.31) 69%, rgba(245,246,134,0.23) 77%, rgba(245,236,147,0.16) 84%, rgba(245,200,150,0.02) 98%, rgba(246,196,147,0.01) 99%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(28,49,92,1) 0%,rgba(28,49,92,0.99) 1%,rgba(34,51,91,0.97) 3%,rgba(64,58,86,0.91) 9%,rgba(115,72,75,0.84) 16%,rgba(163,88,61,0.77) 23%,rgba(206,106,50,0.7) 30%,rgba(236,122,46,0.64) 36%,rgba(250,134,44,0.6) 40%,rgba(255,141,46,0.58) 42%,rgba(255,164,55,0.52) 48%,rgba(255,195,74,0.45) 55%,rgba(255,224,96,0.39) 61%,rgba(248,239,108,0.35) 65%,rgba(246,246,118,0.31) 69%,rgba(245,246,134,0.23) 77%,rgba(245,236,147,0.16) 84%,rgba(245,200,150,0.02) 98%,rgba(246,196,147,0.01) 99%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(28,49,92,1) 0%,rgba(28,49,92,0.99) 1%,rgba(34,51,91,0.97) 3%,rgba(64,58,86,0.91) 9%,rgba(115,72,75,0.84) 16%,rgba(163,88,61,0.77) 23%,rgba(206,106,50,0.7) 30%,rgba(236,122,46,0.64) 36%,rgba(250,134,44,0.6) 40%,rgba(255,141,46,0.58) 42%,rgba(255,164,55,0.52) 48%,rgba(255,195,74,0.45) 55%,rgba(255,224,96,0.39) 61%,rgba(248,239,108,0.35) 65%,rgba(246,246,118,0.31) 69%,rgba(245,246,134,0.23) 77%,rgba(245,236,147,0.16) 84%,rgba(245,200,150,0.02) 98%,rgba(246,196,147,0.01) 99%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c315c', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+		background: url(../img/gradient.png) repeat-x cover;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+ 		background-size: cover;
+}
+.container {
+	max-width:970px; 
+}
+.text {
+	background:rgba(255,255,255,0.8);
+}
+#spelman {
+	background:url(../img/header.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 15px;
+	text-align: center;
+}
+#spelman h1 {
+	color:white;
+	font-family: 'henny_pennyregular';
+	margin:0 auto;
+}
+#spelman h2 {
+	color:white;
+	font-family:'cat_childsregular';
+	margin:0 auto;
+}
+h2, 
+p, 
+tr, 
+td, 
+th {
+	font-family: helvetica, arial, sans-serif;
+	text-align: center;
+}
+h2 {
+	font-family:'berolinaregular'; 
+}
+.btn {
+	font-family: helvetica, arial, sans-serif;
+}
+.text h2, .text-carousel h2 {
+	color:#002344;
+	border-top:3px solid #002344;
+	border-bottom:3px solid #002344;
+	display: inline-block;
+	margin-bottom:20px;
+	text-align:center;
+	text-transform: uppercase;
+	padding:5px 0 3px;/*
+-webkit-transform:rotate(-2deg);
+-moz-transform:rotate(-2deg);
+transform:rotate(-2deg);*/
+}
+.text-carousel h2 {
+	text-align:center;
+	display: inline-block;
+}
+.text p {
+	color:#002344;
+	font-size:16px;
+}
+.text, .text-carousel {
+	text-align: center;
+	margin-bottom:30px;
+	padding-top:10px;
+	padding-bottom:28px;
+}
+time {
+	display: none;
+}
+@media (min-width:768px) {
+	body {
+		background: url(../img/gradient.png) repeat-x cover;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+ 		background-size: cover;
+	}
+	#spelman {
+		background:url(../img/header.png) cover;
+		padding-top:40px;
+		text-align: center;
+	} 
+	.text p {
+		font-size:16px;
+	}
+
+}
+a {
+	color: #333;
+}
+.text a {
+	text-decoration: underline;
+}
+.text a:hover,.text a:focus, .text a:active {
+	text-decoration: none;
+} 
+a:hover, a:focus, a:active {
+	color: #333 !important;
+	text-decoration: underline;
+}
+.spelman_container {
+	width: 75%;
+	text-align:center;
+	margin:0 auto;
+}
+.first-impression p {
+	font-size:18px;
+	letter-spacing: 1px;
+	/*font-family: Georgia, 'Times New Roman', serif;*/
+	text-align: center;
+	margin: 0 auto;
+	padding:15px;
+	width: 80%;
+}
