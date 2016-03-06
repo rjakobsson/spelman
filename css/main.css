@@ -111,6 +111,7 @@ transform:rotate(-2deg);*/
 	padding-top:10px;
 	padding-bottom:28px;
 }
+.carousel-control {background: none !important;}
 time {
 	display: none;
 }
