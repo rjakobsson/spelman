@@ -98,6 +98,8 @@ h2 {
 transform:rotate(-2deg);*/
 }
 .text-carousel h2 {
+	color:white;
+	border-color:white;
 	text-align:center;
 	display: inline-block;
 }
