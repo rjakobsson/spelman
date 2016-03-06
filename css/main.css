@@ -57,7 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c315c', end
 	background:url(../img/header.png);
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-top: 15px;
+	/*margin-top: 15px;*/
 	text-align: center;
 }
 #spelman h1 {
